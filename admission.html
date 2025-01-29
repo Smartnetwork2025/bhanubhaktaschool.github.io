@@ -4,53 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Message from the Principal</title>
+    <title>Admission - Our School</title>
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="img/favicon.ico" rel="icon">
-
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
-
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+       <!-- Bootstrap CSS -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+       <link href="img/favicon.ico" rel="icon">
+   
+       <!-- Google Web Fonts -->
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+   
+       <!-- Font Awesome -->
+       <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+   
+       <!-- Libraries Stylesheet -->
+       <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+   
+       <!-- Customized Bootstrap Stylesheet -->
+       <link href="css/style.css" rel="stylesheet">
     <style>
         body {
             background-color: #f8f9fa;
         }
 
-        .message-card {
-            border-radius: 15px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            background-color: #ffffff;
-            padding: 20px;
+        .hero-section {
+            background: url('admission-banner.jpg') center/cover no-repeat;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
         }
 
-        .principal-photo {
-            border-radius: 50%;
-            width: 150px;
-            height: 150px;
-            object-fit: cover;
-            border: 4px solid #007bff;
+        .hero-overlay {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 50px;
+            border-radius: 10px;
         }
 
-        .message-title {
-            font-size: 1.5rem;
-            font-weight: bold;
+        .icon-box {
+            font-size: 2.5rem;
             color: #007bff;
+        }
+
+        .section-title {
+            color: #007bff;
+            font-weight: bold;
+        }
+
+        .info-box {
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
     </style>
 </head>
 
 <body>
- <!-- Topbar Start -->
+     <!-- Topbar Start -->
  <div class="container-fluid d-none d-lg-block">
     <div class="row align-items-center py-4 px-xl-5">
         <div class="col-lg-3">
@@ -176,10 +185,9 @@
                         <a href="download.html" class="nav-item nav-link">Download</a>
                         <a href="admission.html" class="nav-item nav-link">Admission</a>
 
-
-                    </div>
-                    <!-- <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="https://infoweb.com.np/bhanubhakta/OnlineAdmission">ADMISSION</a> -->
-                </div>
+                    <!-- </div>
+                    <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="https://infoweb.com.np/bhanubhakta/OnlineAdmission">ADMISSION</a>
+                </div> -->
             </nav>
         </div>
     </div>
@@ -191,128 +199,118 @@
 <div class="container-fluid page-header" style="margin-bottom: 90px;">
     <div class="container">
         <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
-            <h3 class="display-4 text-white text-uppercase">Message</h3>
+            <h3 class="display-4 text-white text-uppercase">Admission</h3>
             <div class="d-inline-flex text-white">
                 <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
                 <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                <p class="m-0 text-uppercase">Message</p>
+                <p class="m-0 text-uppercase">Enroll Now</p>
             </div>
         </div>
     </div>
 </div>
 <!-- Header End -->
-
-
-    <div class="container py-5">
-        <!-- Section Title -->
-        <div class="text-center mb-4">
-            <h1 class="fw-bold">Message from the Principal</h1>
-            <p class="text-muted">A warm greeting and vision from the head of our institution.</p>
+    <!-- Hero Section -->
+    <!-- <section class="hero-section">
+        <div class="container">
+            <div class="hero-overlay">
+                <h1 class="fw-bold">Admissions Open</h1>
+                <p class="lead">Join us for the academic year 2025 and experience excellence in education.</p>
+                <a href="https://infoweb.com.np/bhanubhakta/OnlineAdmission" class="btn btn-light btn-lg">Download Admission Form</a>
+            </div>
         </div>
+    </section> -->
 
-        <!-- Principal's Message -->
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="card message-card">
-                    <div class="row g-4 align-items-center">
-                        <!-- Photo Section -->
-                        <div class="col-md-4 text-center">
-                            <img src="img/Radhe Shyam Sapkota Founder-Principal.jpeg" alt="Principal's Photo" class="principal-photo">
-                        </div>
-                        <!-- Message Section -->
-                        <div class="col-md-8">
-                            <h2 class="message-title">Mr. Radhe Shyam Sapkota</h2>
-                            <p class="text-muted mb-2">Founder/Principal, Bhanubhakta  School</p>
-                            <p>
-                                Welcome to Bhanubhakta School! Our mission is to foster a nurturing environment where
-                                students thrive academically and personally. We are committed to excellence and
-                                innovation, ensuring every student is prepared for a bright future.
-                                <br><br>
-                                Thank you for being part of our wonderful community. Together, let’s make learning an
-                                extraordinary journey!
-                            </p>
-                            <p class="text-muted text-end">— Mr. Radhe Shyam Sapkota</p>
-                        </div>
+    <!-- Admission Information -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="section-title">Why Choose Our School?</h2>
+                <p class="text-muted">Providing high-quality education with modern facilities and experienced faculty.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Feature 1 -->
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-book icon-box"></i>
+                    <h5 class="fw-bold mt-3">Comprehensive Curriculum</h5>
+                    <p class="text-muted">A well-structured curriculum designed to nurture student growth.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-mortarboard icon-box"></i>
+                    <h5 class="fw-bold mt-3">Experienced Faculty</h5>
+                    <p class="text-muted">Highly qualified teachers committed to academic excellence.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="col-md-4 text-center">
+                    <i class="bi bi-building icon-box"></i>
+                    <h5 class="fw-bold mt-3">Modern Facilities</h5>
+                    <p class="text-muted">Smart classrooms, well-equipped labs, and a vast library.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Process -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="section-title">Admission Process</h2>
+                <p class="text-muted">Follow these simple steps to enroll your child at our school.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Step 1 -->
+                <div class="col-md-3 text-center">
+                    <div class="info-box p-4">
+                        <i class="bi bi-file-earmark-text icon-box"></i>
+                        <h5 class="fw-bold mt-3">Step 1: Application</h5>
+                        <p class="text-muted">Fill out the admission form online or visit our school.</p>
+                    </div>
+                </div>
+                <!-- Step 2 -->
+                <div class="col-md-3 text-center">
+                    <div class="info-box p-4">
+                        <i class="bi bi-chat-dots icon-box"></i>
+                        <h5 class="fw-bold mt-3">Step 2: Interview</h5>
+                        <p class="text-muted">Attend an interaction session with faculty.</p>
+                    </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="col-md-3 text-center">
+                    <div class="info-box p-4">
+                        <i class="bi bi-clipboard-check icon-box"></i>
+                        <h5 class="fw-bold mt-3">Step 3: Selection</h5>
+                        <p class="text-muted">Successful candidates will receive confirmation.</p>
+                    </div>
+                </div>
+                <!-- Step 4 -->
+                <div class="col-md-3 text-center">
+                    <div class="info-box p-4">
+                        <i class="bi bi-cash-coin icon-box"></i>
+                        <h5 class="fw-bold mt-3">Step 4: Fee Payment</h5>
+                        <p class="text-muted">Complete the admission by paying the fees.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-<body>
-    <div class="container py-5">
-        <!-- Section Title -->
-        <div class="text-center mb-4">
-            <h1 class="fw-bold">Message from the Vice-Principal</h1>
-            <p class="text-muted">A warm greeting and vision from the head of our institution.</p>
-        </div>
+    </section>
 
-        <!-- Principal's Message -->
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="card message-card">
-                    <div class="row g-4 align-items-center">
-                        <!-- Photo Section -->
-                        <div class="col-md-4 text-center">
-                            <img src="img/Kedar Pd. Devkota- V. Principal.jpeg" alt="Principal's Photo" class="principal-photo">
-                        </div>
-                        <!-- Message Section -->
-                        <div class="col-md-8">
-                            <h2 class="message-title">Mr. Kedar Prasad Devkota</h2>
-                            <p class="text-muted mb-2">Vice-Principal, Bhanubhakta  School</p>
-                            <p>
-                                Welcome to Bhanubhakta School! Our mission is to foster a nurturing environment where
-                                students thrive academically and personally. We are committed to excellence and
-                                innovation, ensuring every student is prepared for a bright future.
-                                <br><br>
-                                Thank you for being part of our wonderful community. Together, let’s make learning an
-                                extraordinary journey!
-                            </p>
-                            <p class="text-muted text-end">— Mr. Kedar Prasad Devkota</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<body>
-    <div class="container py-5">
-        <!-- Section Title -->
-        <div class="text-center mb-4">
-            <h1 class="fw-bold">Message from Academic Incharge</h1>
-            <p class="text-muted">A warm greeting and vision from the head of our institution.</p>
-        </div>
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="section-title">Online Enrollment</h2>
+            <!-- <p class="text-muted">For more information, feel free to contact us.</p> -->
+            <a href="https://infoweb.com.np/bhanubhakta/OnlineAdmission" class="btn btn-primary">Enroll Now</a>
 
-        <!-- Principal's Message -->
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="card message-card">
-                    <div class="row g-4 align-items-center">
-                        <!-- Photo Section -->
-                        <div class="col-md-4 text-center">
-                            <img src="img/Deevakar Subedi.jpeg" alt="Principal's Photo" class="principal-photo">
-                        </div>
-                        <!-- Message Section -->
-                        <div class="col-md-8">
-                            <h2 class="message-title">Mr. Deevakar Subedi</h2>
-                            <p class="text-muted mb-2">Academic Incharge, Bhanubhakta  School</p>
-                            <p>
-                                Welcome to Bhanubhakta School! Our mission is to foster a nurturing environment where
-                                students thrive academically and personally. We are committed to excellence and
-                                innovation, ensuring every student is prepared for a bright future.
-                                <br><br>
-                                Thank you for being part of our wonderful community. Together, let’s make learning an
-                                extraordinary journey!
-                            </p>
-                            <p class="text-muted text-end">— Mr. Deevakar Subedi</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- <a href="contact.html" class="btn btn-primary">Contact Us</a> -->
         </div>
-    </div>
+    </section>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css" rel="stylesheet">
 </body>
 
 </html>
